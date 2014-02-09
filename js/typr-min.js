@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=function(e){var t=-1;setInterval(function(){t++;if(t<e.length){$("#elPrompter").append(e[t])}else{clearInterval()}},30)};var t=function(){$("#elPrompter").empty()};var n=function(n){t();e(n)};$(".typr").click(function(){n($(this).attr("data-prompt"))});$(".typr").hover(function(){n($(this).attr("data-prompt"))},function(){t()})})
