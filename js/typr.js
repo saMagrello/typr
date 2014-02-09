@@ -1,3 +1,8 @@
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+// typrJs jQuery Plugin
+// Author: Samuel SS - samuel@samuelss.com.br
+// Release Date: 09/02/2014
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 $(document).ready(function(){
 	// function for "typing" content into #elPrompter
 	// any argument can be passed as function argument ( eltexto can be a variable, an element's attr value, ... )	
