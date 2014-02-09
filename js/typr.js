@@ -24,21 +24,19 @@ $(document).ready(function(){
 	};
 	
 	// function for complete - clear and write - action.
-	var theWriter = function(){
+	var theWriter = function(textToPass){
 		clearPrompt();
-		writePrompt(contenidoPrompt);
+		writePrompt(textToPass);
 	};
 	
 	// function for writing on click - bound to .typr
 	$(".typr").click(function(){
-		contenidoPrompt = $(this).attr("data-prompt");
-		theWriter();
+		theWriter($(this).attr("data-prompt"));
 	});
 	
 	// function for writing on hover - bound to .typr
 	$(".typr").hover(function(){
-		contenidoPrompt = $(this).attr("data-prompt");
-		theWriter();
+		theWriter($(this).attr("data-prompt"));
 		}
 	, 
 		function(){
