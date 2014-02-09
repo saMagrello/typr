@@ -1,10 +1,10 @@
-@charset "utf-8";
-/* CSS Document */
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 // typrJs jQuery Plugin Stylesheet
 // Author: Samuel SS - samuel@samuelss.com.br
 // Release Date: 09/02/2014
 // XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@charset "utf-8";
+/* CSS Document */
 * {
 	margin: 0;
 	padding: 0;
@@ -15,12 +15,10 @@ body {
 	font-size: 20px;
 	font-family: "Courier New", Courier, monospace;
 }
-li.typr {
-}
-.menu {
+ul.menu {
 	float: right;
 }
-.menu li {
+ul.menu li {
 	width: 180px;
 	text-align: center;
 	position: relative;
@@ -37,13 +35,13 @@ li.typr {
 	cursor: pointer;
 	text-shadow: 1px 1px 0 #444;
 }
-.menu li:hover {
+ul.menu li:hover {
 	background-color: #111;
 	text-shadow: 2px 2px 0 #222;
 	z-index: 2;
 	color: white;
 }
-#footerPrompt {
+div#footerPrompt {
 	position: fixed;
 	bottom: 0;
 	background-color: #111;
